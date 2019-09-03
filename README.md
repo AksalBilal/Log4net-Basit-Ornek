@@ -7,7 +7,11 @@ Projelerde görülen error, info, fatal,warn gibi bildirimlerin sistem tarafınd
 
 2-) Uygulamamıza Manage Nuget Packages kullanarak log4net modülünü yükleyelim.
 
-3-) Properties klasörü altındaki AssemblyInfo sınıfı açıp "[assembly: log4net.Config.XmlConfigurator]" yazısını ekleyelim.
+3-) Properties klasörü altındaki AssemblyInfo sınıfı açıp
+
+    [assembly: log4net.Config.XmlConfigurator]
+    
+   yazısını ekleyelim.
 
 ![assemblyinfo](https://user-images.githubusercontent.com/46024317/64182698-4e317080-ce71-11e9-9cd9-628d603ce6c5.PNG)
 
