@@ -50,7 +50,8 @@ Ekledikten sonra App.config sınıfımız Aşşağıdaki gibi olmalıdır.
 private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
 6-) Main fonksiyonun içine alttaki kod satırlarını yazalım.
-
+            
+            Console.WriteLine("Writing to \"log.txt\" in the same directory as the .exe file.\n");
             log.Info("Info logging");//İnfo loglanması
             log.Fatal("Info Fatal"); //Fatal loglanması   
             log.Warn("Info Warning");//Warning loglanması   
