@@ -15,15 +15,15 @@ Ekledikten sonra AssemblInfo sınıfı yukarıdaki gibi olmalıdır.
 
 4-) Solution Explorer penceresinden App.config sınıfına girip configuration taglari arasında bulunan startup taglarini silmeden altına veya üstüne alttaki kod blogunu yapıştıralım.
  
- <configSections>
+    <configSections>
     <section name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" />
-  </configSections>
- <appSettings>
+    </configSections>
+    <appSettings>
         <add key="log4net.Config" value="log4.config"/>
         <add key="log4net.Config.Watch" value="True"/>
         <add key="log4net.Internal.Debug" value="False"/>
     </appSettings>
-  <log4net>
+    <log4net>
     <appender name="RollingFileAppender" type="log4net.Appender.RollingFileAppender">
       <file value="log.txt" />
       <appendToFile value="true" />
@@ -39,7 +39,7 @@ Ekledikten sonra AssemblInfo sınıfı yukarıdaki gibi olmalıdır.
       <level value="ALL" />
       <appender-ref ref="RollingFileAppender" />
     </root>
-  </log4net>
+    </log4net>
 
 Ekledikten sonra App.config sınıfımız Aşşağıdaki gibi olmalıdır.
 
