@@ -71,7 +71,7 @@ private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.R
    
 Kodları yazdıktan sonra programı çalıştıralım. Console çıktısı aşşağıdaki resimdeki gibiyse loglama işlemimiz başarıyla tamamlandı demektir.
  
- ![program](https://user-images.githubusercontent.com/46024317/64183625-d5cbaf00-ce72-11e9-9c89-98257f90f1e5.PNG)
+ ![program](https://user-images.githubusercontent.com/46024317/64184872-d49b8180-ce74-11e9-9856-751358b98f30.PNG)
  
  Peki bu log kayıtlarımız nerede tutuluyor. Loglarımız olduğu txt dosyası default olarak projemizin bulunduğu klasörün bin/debug klasörlerinin altında log.txt adlı dosyada tutuluyor.
  
