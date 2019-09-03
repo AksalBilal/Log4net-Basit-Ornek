@@ -38,3 +38,9 @@ System.Exception: Exception!
 2019-09-03 17:20:08,750 [1] ERROR Log4Net.Program [(null)] - This is my error
 System.Exception: Exception!
    konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 25
+2019-09-03 18:00:42,809 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-09-03 18:00:42,844 [1] FATAL Log4Net.Program [(null)] - Info Fatal
+2019-09-03 18:00:42,844 [1] WARN  Log4Net.Program [(null)] - Info Warning
+2019-09-03 18:00:42,849 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Belgeler\GitHub\Log4net-Basit-Ornek\Log4Net\Program.cs içinde: satýr 25
