@@ -43,8 +43,11 @@ Ekledikten sonra App.config sınıfımız Aşşağıdaki gibi olmalıdır.
 ![appConfig](https://user-images.githubusercontent.com/46024317/64183026-db74c500-ce71-11e9-8f99-c8847078c07d.PNG)
 
 5-) Gerekli ayarlamaları yaptık artık kod yazalım. Program sınıfına girelim ve aşşağıdaki kod satırları ile log nesnemizi tanımlayalım;
+
 private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+
 6-) Main fonksiyonun içine alttaki kod satırlarını yazıp programı çalıştıralım.
+
 log.Info("Info logging");//İnfo loglanması
             log.Fatal("Info Fatal"); //Fatal loglanması   
             log.Warn("Info Warning");//Warning loglanması   
@@ -64,6 +67,7 @@ log.Info("Info logging");//İnfo loglanması
  ![program](https://user-images.githubusercontent.com/46024317/64183625-d5cbaf00-ce72-11e9-9c89-98257f90f1e5.PNG)
  
  Peki bu log kayıtlarımız nerede tutuluyor. Loglarımız olduğu txt dosyası default olarak projemizin bulunduğu klasörün bin/debug klasörlerinin altında log.txt adlı dosyada tutuluyor.
+ 
  Bunu değiştirmek için 4. adımda App.config sınıfına eklediğimiz kodlarda bulunan <file value="log.txt" /> koduna istediğimiz dosya yolunu belirtebiliriz.
  
  Son olarak txt dosyamızdan bir fotoğraf gösterelim;
