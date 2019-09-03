@@ -46,7 +46,7 @@ Ekledikten sonra App.config sınıfımız Aşşağıdaki gibi olmalıdır.
 
 private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-6-) Main fonksiyonun içine alttaki kod satırlarını yazıp programı çalıştıralım.
+6-) Main fonksiyonun içine alttaki kod satırlarını yazalım.
 
 log.Info("Info logging");//İnfo loglanması
             log.Fatal("Info Fatal"); //Fatal loglanması   
@@ -62,7 +62,11 @@ log.Info("Info logging");//İnfo loglanması
             Console.WriteLine("[any key to exit]");
             Console.ReadKey();
             
- Console çıktısı aşşağıdaki resimdeki gibiyse loglama işlemimiz başarıyla tamamlandı demektir.
+   ![program2](https://user-images.githubusercontent.com/46024317/64184364-08c27280-ce74-11e9-850e-e30161187332.PNG)  
+   
+   Program sınıfının içeriği yukarıdaki gibi olmalıdır!
+   
+Kodları yazdıktan sonra programı çalıştıralım. Console çıktısı aşşağıdaki resimdeki gibiyse loglama işlemimiz başarıyla tamamlandı demektir.
  
  ![program](https://user-images.githubusercontent.com/46024317/64183625-d5cbaf00-ce72-11e9-9c89-98257f90f1e5.PNG)
  
