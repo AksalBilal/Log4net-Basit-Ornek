@@ -47,7 +47,7 @@ Ekledikten sonra App.config sınıfımız Aşşağıdaki gibi olmalıdır.
 
 5-) Gerekli ayarlamaları yaptık artık kod yazalım. Program sınıfına girelim ve aşşağıdaki kod satırları ile log nesnemizi tanımlayalım;
 
-private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+    private static readonly log4net.ILog log =   log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
 6-) Main fonksiyonun içine alttaki kod satırlarını yazalım.
             
