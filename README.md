@@ -4,12 +4,15 @@ Projelerde görülen error, info, fatal,warn gibi bildirimlerin sistem tarafınd
                                                    ÖRNEĞİN UYGULANMASI
           
 1-) İlk olarak bir c# console uygulaması açalım
+
 2-) Uygulamamıza Manage Nuget Packages kullanarak log4net modülünü yükleyelim.
+
 3-) Properties klasörü altındaki AssemblyInfo sınıfı açıp "[assembly: log4net.Config.XmlConfigurator]" yazısını ekleyelim.
 
 ![assemblyinfo](https://user-images.githubusercontent.com/46024317/64182698-4e317080-ce71-11e9-9cd9-628d603ce6c5.PNG)
 
 Ekledikten sonra AssemblInfo sınıfı yukarıdaki gibi olmalıdır.
+
 4-) Solution Explorer penceresinden App.config sınıfına girip configuration taglari arasında bulunan startup taglarini silmeden altına veya üstüne alttaki kod blogunu yapıştıralım.
  
  <configSections>
@@ -55,6 +58,7 @@ log.Info("Info logging");//İnfo loglanması
             {
                 throw new Exception("Exception!");
             }
+            
             catch (Exception e)
             {
                 log.Error("This is my error", e);//Error loglanması
