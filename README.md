@@ -76,8 +76,11 @@ Kodları yazdıktan sonra programı çalıştıralım. Console çıktısı aşş
  
  Peki bu log kayıtlarımız nerede tutuluyor. Loglarımız olduğu txt dosyası default olarak projemizin bulunduğu klasörün bin/debug klasörlerinin altında log.txt adlı dosyada tutuluyor.
  
- Bunu değiştirmek için 4. adımda App.config sınıfına eklediğimiz kodlarda bulunan <file value="log.txt" /> koduna istediğimiz dosya yolunu belirtebiliriz.
- 
+ Bunu değiştirmek için 4. adımda App.config sınıfına eklediğimiz kodlarda bulunan
+         
+         <file value="log.txt"/>        
+   koduna istediğimiz dosya yolunu belirtebiliriz.
+       
  Son olarak txt dosyamızdan bir fotoğraf gösterelim;
  
  ![log](https://user-images.githubusercontent.com/46024317/64184104-a23d5480-ce73-11e9-972c-672364dbdf66.PNG)
