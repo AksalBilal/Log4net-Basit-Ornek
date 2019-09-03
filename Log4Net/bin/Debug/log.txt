@@ -1,0 +1,40 @@
+2019-08-27 20:00:38,088 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-08-27 20:00:38,140 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 23
+2019-08-27 20:00:53,829 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-08-27 20:00:53,860 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 23
+2019-08-27 20:02:07,925 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-08-27 20:02:07,956 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 23
+2019-08-27 20:02:29,743 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-08-27 20:02:29,773 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 23
+2019-09-03 17:16:42,639 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-09-03 17:16:42,675 [1] FATAL Log4Net.Program [(null)] - Info Fatal
+2019-09-03 17:16:42,675 [1] WARN  Log4Net.Program [(null)] - Info Warning
+2019-09-03 17:16:42,684 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 25
+2019-09-03 17:19:22,421 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-09-03 17:19:22,453 [1] FATAL Log4Net.Program [(null)] - Info Fatal
+2019-09-03 17:19:22,453 [1] WARN  Log4Net.Program [(null)] - Info Warning
+2019-09-03 17:19:22,478 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 25
+2019-09-03 17:19:56,188 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-09-03 17:19:56,218 [1] FATAL Log4Net.Program [(null)] - Info Fatal
+2019-09-03 17:19:56,219 [1] WARN  Log4Net.Program [(null)] - Info Warning
+2019-09-03 17:19:56,222 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 25
+2019-09-03 17:20:08,705 [1] INFO  Log4Net.Program [(null)] - Info logging
+2019-09-03 17:20:08,739 [1] FATAL Log4Net.Program [(null)] - Info Fatal
+2019-09-03 17:20:08,740 [1] WARN  Log4Net.Program [(null)] - Info Warning
+2019-09-03 17:20:08,750 [1] ERROR Log4Net.Program [(null)] - This is my error
+System.Exception: Exception!
+   konum: Log4Net.Program.Main(String[] args) C:\Users\bilal\OneDrive\Masaüstü\Log4Net\Log4Net\Program.cs içinde: satýr 25
