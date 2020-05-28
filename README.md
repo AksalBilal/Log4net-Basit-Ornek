@@ -1,6 +1,9 @@
 # Log4net-Basit-Ornek
 Projelerde görülen error, info, fatal,warn gibi bildirimlerin sistem tarafından kayıt alınmasına yönelik C# Console kullanılarak yapılmış bir örnektir.
 
+## Uygulamanın medium postuna [buradan](https://medium.com/@bilalaksal/log4net-kullan%C4%B1m%C4%B1-5ecf650d49b7) ulaşabilirsiniz.
+      
+
                                                    ÖRNEĞİN UYGULANMASI
           
 1-) İlk olarak bir c# console uygulaması açalım
